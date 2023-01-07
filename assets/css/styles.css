@@ -1,10 +1,10 @@
-/*=============== GOOGLE FONTS ===============*/
+/* <=============== GOOGLE FONTS ===============> */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/*=============== VARIAVEIS CSS ===============*/
+/* <=============== VARIAVEIS CSS ===============> */
 :root {
-  /*========== Cores ==========*/
-  --first-color: hsl(175, 55%, 40%);
+  /* <========== Cores ==========> */
+  --first-color: #2e9e95;
   --first-color-light: hsl(175, 30%, 48%);
   --first-color-lighten: hsl(175, 40%, 62%);
   --gradient-color: linear-gradient(180deg,
@@ -15,7 +15,7 @@
   --white-color: #fff;
   --body-color: hsl(175, 100%, 99%);
 
-  /*========== Fonte e Tipografia ==========*/
+  /* <========== Fonte e Tipografia ==========> */
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --h2-font-size: 1.25rem;
@@ -23,7 +23,7 @@
   --smaller-font-size: .75rem;
 }
 
-/*=============== BASE ===============*/
+/* <=============== BASE ===============> */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -56,6 +56,9 @@ img {
     display: grid;
     place-items: center;
 }
+
+/* <===== CARD =====> */
+
 
 .card {
     position: relative;
@@ -108,6 +111,8 @@ img {
     font-weight: 500;
 }
 
+
+/* <===== CARD INFO =====> */
 
 
 .info {
@@ -206,11 +211,13 @@ img {
     font-size: 1rem;
 }
 
+
+/* <===== ANIMAÇÕES =====> */
+
+
 .info__social-link:hover {
     transform: translateY(-.25rem);
 }
-
-
 
 .info:hover {
     clip-path: circle(75%);
