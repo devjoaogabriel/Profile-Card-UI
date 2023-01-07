@@ -4,7 +4,7 @@
 
 Projeto construido junto ao video do Canal Bedimcode
 
-[🔗 Clique aqui para acessar o projeto](https://devjoaogabriel.github.io/Profile-Card-UI/)
+[🔗 Clique aqui para acessar o projeto](https://devjoaogabriel.github.io/profile-card-ui/)
 
 ## ⚒️ Tecnologias:
 
